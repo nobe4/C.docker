@@ -1,0 +1,10 @@
+version: '2'
+services:
+  dev:
+    build: .
+    volumes:
+      - ../learning/:/tmp/src/
+    command: /bin/sh
+    tty: true
+    stdin_open: true
+    privileged: true
