@@ -3,7 +3,7 @@ services:
   dev:
     build: .
     volumes:
-      - ../learning/:/tmp/src/
+      - ../:/tmp/src/
     command: /bin/sh
     tty: true
     stdin_open: true
