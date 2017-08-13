@@ -1,4 +1,4 @@
-version: '2'
+version: '2.1'
 services:
   dev:
     build: .
@@ -8,3 +8,5 @@ services:
     tty: true
     stdin_open: true
     privileged: true
+    ports:
+      - "8080:8080"
